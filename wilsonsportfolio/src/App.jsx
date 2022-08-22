@@ -11,7 +11,6 @@ function App() {
         
     <Topbar />
     <div className="sections ">
-      asdasd
       <Introduction />
       <Portfolio />
       <Works />
