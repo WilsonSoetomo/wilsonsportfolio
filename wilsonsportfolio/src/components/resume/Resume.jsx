@@ -1,8 +1,8 @@
-import "./works.scss";
+import "./resume.scss";
 
 export default function Works() {
   return (
-    <div className="works" id="works">
+    <div className="resume" id="resume">
       
     </div>
   )
