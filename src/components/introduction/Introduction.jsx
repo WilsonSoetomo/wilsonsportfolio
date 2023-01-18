@@ -1,6 +1,8 @@
 import "./introduction.scss";
+import { useEffect, useRef } from "react";
 
 export default function Introduction() {
+  const textRef = useRef();
   return (
     <div className='introduction' id="introduction">
       <div className="left">
@@ -11,12 +13,12 @@ export default function Introduction() {
       <div className="right">
         <div className="wrapper">
           <h2>
-            Hey,there I'm
+            Portfolio
           </h2>
           <h1>
             Wilson Soetomo
           </h1>
-          <h3>Web Developer<span></span></h3>
+          <h3 ref={textRef}><span></span></h3>
         </div>
         <a href="#portfolio">
         </a>
